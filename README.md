@@ -7,6 +7,7 @@ Meeting scheduling system with role-based access control and conflict detection.
 ## Tech Stack
 
 **Backend**
+
 - Node.js
 - Express.js
 - MongoDB Atlas
@@ -17,6 +18,7 @@ Meeting scheduling system with role-based access control and conflict detection.
 - TypeScript
 
 **Frontend**
+
 - React
 - Vite
 - TypeScript
@@ -27,6 +29,7 @@ Meeting scheduling system with role-based access control and conflict detection.
 ## User Roles and Permissions
 
 **ORGANIZER**
+
 - Register and log in
 - Create meetings with date and time range
 - Update or delete meetings they created
@@ -34,6 +37,7 @@ Meeting scheduling system with role-based access control and conflict detection.
 - View all meetings they created
 
 **PARTICIPANT**
+
 - Register and log in
 - View meetings they are assigned to
 - View meeting details
@@ -42,6 +46,7 @@ Meeting scheduling system with role-based access control and conflict detection.
 ## API Endpoints
 
 **Authentication**
+
 ```
 POST   /api/auth/register        Register a new user
 POST   /api/auth/login           Login and receive JWT tokens
@@ -50,6 +55,7 @@ GET    /api/auth/profile         Get authenticated user profile
 ```
 
 **Meetings (ORGANIZER)**
+
 ```
 POST   /api/meetings                                  Create a meeting
 GET    /api/meetings                                  Get organizer's meetings
@@ -62,6 +68,7 @@ DELETE /api/meetings/:id/participants/:userId         Remove participant
 ```
 
 **Meetings (PARTICIPANT)**
+
 ```
 GET    /api/meetings/my-meetings          Get assigned meetings
 GET    /api/meetings/:id                  Get meeting details (if assigned)
@@ -70,6 +77,7 @@ GET    /api/meetings/:id                  Get meeting details (if assigned)
 ## Database Schema
 
 **User Schema**
+
 ```
 {
   firstName: String,
@@ -83,6 +91,7 @@ GET    /api/meetings/:id                  Get meeting details (if assigned)
 ```
 
 **Meeting Schema**
+
 ```
 {
   title: String,
