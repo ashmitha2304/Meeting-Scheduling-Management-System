@@ -255,8 +255,6 @@ VITE_API_BASE_URL=your_backend_api_url
 
 ## Documentation Files
 
-- `DEPLOYMENT_GUIDE.md` - Complete deployment instructions for Render and Vercel
-- `PUSH_INSTRUCTIONS.md` - GitHub authentication and repository push guide
 - Backend README - API documentation and backend setup
 - Frontend README - Frontend features and setup
 
