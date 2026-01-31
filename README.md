@@ -727,48 +727,7 @@ vercel env add VITE_API_BASE_URL production
 # Enter: https://your-backend.railway.app/api
 vercel --prod
 ```
-
----
-
-## 🛣️ Roadmap
-
-### **Phase 1: Core Features** ✅ Completed
-
-- [x] User authentication (JWT)
-- [x] Meeting CRUD operations
-- [x] Conflict detection
-- [x] Role-based access control
-- [x] Participant assignment
-- [x] Frontend dashboards
-
-### **Phase 2: Enhanced Features** 🚧 In Progress
-
-- [ ] Email notifications (Nodemailer)
-- [ ] Recurring meetings (RRULE pattern)
-- [ ] Meeting reminders
-- [ ] Calendar sync (Google/Outlook)
-- [ ] File attachments
-- [ ] Meeting notes
-
-### **Phase 3: Advanced Features** 📋 Planned
-
-- [ ] Real-time updates (Socket.io)
-- [ ] Video conferencing integration (Zoom API)
-- [ ] Meeting analytics dashboard
-- [ ] Team management
-- [ ] Meeting templates
-- [ ] Mobile app (React Native)
-
-### **Phase 4: Enterprise Features** 🔮 Future
-
-- [ ] SSO integration (OAuth)
-- [ ] Multi-tenant architecture
-- [ ] Advanced permissions
-- [ ] Meeting room booking
-- [ ] Reporting & analytics
-- [ ] Audit logs
-
----
+-- 
 
 ## 🤝 Contributing
 
